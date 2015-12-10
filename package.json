@@ -1,0 +1,24 @@
+{
+  "name": "gl-react-vr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "budo index.js --live -- -t [ babelify --presets [ es2015 react ] --plugins [ transform-class-properties ]  ]"
+  },
+  "author": "Mr Speaker",
+  "license": "MIT",
+  "devDependencies": {
+    "budo": "^7.0.2",
+    "babel-preset-react": "^6.1.18",
+    "babel-preset-es2015": "^6.1.18",
+    "babel-plugin-transform-class-properties": "^6.2.2"
+  },
+  "dependencies": {
+    "babelify": "^7.2.0",
+    "gl-react": "^2.0.1",
+    "gl-react-dom": "^2.0.0",
+    "react": "^0.14.3",
+    "react-dom": "^0.14.3"
+  }
+}
